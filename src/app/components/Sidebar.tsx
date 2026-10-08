@@ -2,7 +2,7 @@
 
 import React from "react";
 import { useRouter } from "next/navigation";
-import { usePortal, RoleType } from "../portal/context/PortalContext";
+import { usePortal, RoleType } from "../(portal)/context/PortalContext";
 
 interface SidebarProps {
   activePanel: string;
@@ -113,7 +113,7 @@ export default function Sidebar({ activePanel, setActivePanel }: SidebarProps) {
                   key={item.id}
                   onClick={() => {
                     if (item.id === "dashboard") {
-                      router.push("/portal");
+                      router.push("/");
                     } else {
                       router.push(`/${item.id}`);
                     }

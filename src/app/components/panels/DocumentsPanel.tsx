@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { usePortal, SchoolDocument } from "../../portal/context/PortalContext";
+import { usePortal, SchoolDocument } from "../../(portal)/context/PortalContext";
 import Toast, { useToast } from "../Toast";
 
 export default function DocumentsPanel() {

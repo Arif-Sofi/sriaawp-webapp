@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { usePortal, RoleType } from "../portal/context/PortalContext";
+import { usePortal, RoleType } from "../(portal)/context/PortalContext";
 import Link from "next/link";
 import schoolLogo from "@/images/logo.png";
 import Image from "next/image";
@@ -25,10 +25,8 @@ export default function PortalHeader() {
     <header className="w-full h-20 bg-white border-b border-secondary/15 flex items-center justify-between px-6 md:px-10 sticky top-0 z-30 shadow-sm font-montserrat">
       {/* Brand Logo & Name */}
       <div className="flex items-center gap-3">
-        <Link href="/portal" className="flex items-center gap-2.5 group">
-          <a href="/portal">
-            <Image src={schoolLogo} alt="School Logo" className="w-15 h-15 "/>
-          </a>
+        <Link href="/" className="flex items-center gap-2.5 group">
+          <Image src={schoolLogo} alt="School Logo" className="w-15 h-15 "/>
           <div className="hidden sm:block">
             <h1 className="text-base md:text-lg font-black text-slate-900 group-hover:text-primary transition-colors leading-tight">
               SRIAAWP PORTAL

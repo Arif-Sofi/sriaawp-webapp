@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-import { usePortal, RoleType, UserProfile } from "../../portal/context/PortalContext";
+import { usePortal, RoleType, UserProfile } from "../../(portal)/context/PortalContext";
 import Toast, { useToast } from "../Toast";
 
 export default function DashboardHomePanel() {

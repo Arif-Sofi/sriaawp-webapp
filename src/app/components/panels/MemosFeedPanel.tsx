@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { usePortal, SchoolMemo } from "../../portal/context/PortalContext";
+import { usePortal, SchoolMemo } from "../../(portal)/context/PortalContext";
 import Toast, { useToast } from "../Toast";
 
 export default function MemosFeedPanel() {

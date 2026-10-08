@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from "react";
-import { usePortal } from "../portal/context/PortalContext";
+import { usePortal } from "../(portal)/context/PortalContext";
 
 export default function AIAssistantDrawer() {
   const { chatMessages, sendChatMessage } = usePortal();

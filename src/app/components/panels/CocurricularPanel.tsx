@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { usePortal, RoleType, UserProfile, AchievementSubmission, CocurricularGroup } from "../../portal/context/PortalContext";
+import { usePortal, RoleType, UserProfile, AchievementSubmission, CocurricularGroup } from "../../(portal)/context/PortalContext";
 import Toast, { useToast } from "../Toast";
 
 export default function CocurricularPanel() {

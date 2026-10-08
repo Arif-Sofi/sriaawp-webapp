@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { PortalProvider } from "../portal/context/PortalContext";
+import { PortalProvider } from "../(portal)/context/PortalContext";
 import PortalHeader from "../components/PortalHeader";
 import Sidebar from "../components/Sidebar";
 import CalendarPanel from "../components/panels/CalendarPanel";

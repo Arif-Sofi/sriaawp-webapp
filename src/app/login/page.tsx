@@ -93,7 +93,7 @@ export default function LoginPage() {
         }
         localStorage.setItem("sriaawp_role", matched.role);
         // Redirect to worksheet page or portal
-        router.push("/portal");
+        router.push("/");
       } else {
         setError("Invalid email or password");
       }
@@ -160,7 +160,7 @@ export default function LoginPage() {
       setRegPhone("");
       setRegPassword("");
       
-      router.push("/portal");
+      router.push("/");
     }, 1000);
   };
 
@@ -250,10 +250,10 @@ export default function LoginPage() {
 
       {/* 3. Center Login Form Container */}
       <div className="relative z-10 w-full max-w-md mx-4 p-8 md:px-10 md:py-5 bg-white/95 backdrop-blur-md rounded-3xl border-3 border-secondary shadow-2xl flex flex-col items-center">
-        <a href="/portal" className="w-full text-2xl"> ← </a>
+        <a href="/" className="w-full text-2xl"> ← </a>
         {/* Playful School Icon Header */}
         <div className="mb-2 rounded-full border-2 border-blue-950 ">
-          <a href="/portal">
+          <a href="/">
             <Image src={schoolLogo} alt="School Logo" className="w-40 h-40 "/>
           </a>
         </div>
